@@ -47,4 +47,4 @@ A custom light saber weapon for fivem!
     },
 ```
 # Credits
-- [bobodori](https://www.gta5-mods.com/users/bobodori) 
+- [MrVicho13](https://www.gta5-mods.com/users/MrVicho13) 
