@@ -12,7 +12,7 @@ A custom light saber weapon for fivem!
 
 - Place in `ox_inventory/data/weapons.lua`
 ```lua
-    ['weapon_saber'] 			= { label = 'Light Saber', 		    weight = 1000,	durability = 0.0,	},      		
+    ['WEAPON_SABER'] 			= { label = 'Light Saber', 		    weight = 1000,	durability = 0.0,	},      		
 ```
 
 # If using QBCore & qb-inventory
