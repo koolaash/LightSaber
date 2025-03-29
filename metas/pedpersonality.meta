@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF - 8"?>
 
 <CPedModelInfo__PersonalityDataList>
 	<MovementModeUnholsterData>
@@ -7,7 +7,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>unarmed_holster_unarmed</Clip>
 				</Item>
@@ -18,7 +18,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>2h_melee_holster_unarmed</Clip>
 				</Item>
@@ -29,7 +29,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>1h_holster_unarmed</Clip>
 				</Item>
@@ -40,7 +40,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>2h_holster_unarmed</Clip>
 				</Item>
@@ -51,7 +51,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>mini_holster_2h_unarmed</Clip>
 				</Item>
@@ -62,7 +62,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>unarmed_holster_unarmed</Clip>
 				</Item>
@@ -73,7 +73,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>unarmed_holster_unarmed</Clip>
 				</Item>
@@ -84,7 +84,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>1h_holster_unarmed</Clip>
 				</Item>
@@ -95,7 +95,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>weapon_saber</Item>
+						<Item>WEAPON_SABER</Item>
 					</Weapons>
 					<Clip>2h_holster_unarmed</Clip>
 				</Item>
@@ -109,18 +109,18 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId />
-								<WeaponClipFilterId />
-								<UpperBodyShadowExpressionEnabled value="false" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="true" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<MovementClipSetId>MOVE_ACTION@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId/>
+								<WeaponClipFilterId/>
+								<UpperBodyShadowExpressionEnabled value="false"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="true"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
 									<Item>MOVE_ACTION@GENERIC@TRANS@UNARMED</Item>
 								</IdleTransitions>
@@ -133,28 +133,30 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
-								<UpperBodyShadowExpressionEnabled value="true" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="false" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<UpperBodyShadowExpressionEnabled value="true"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="false"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
-									<Item>move_stealth@generic@trans@unarmed</Item>
+									<Item>MOVE_STEALTH@GENERIC@TRANS@UNARMED</Item>
 								</IdleTransitions>
-								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
 								<UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
 				</Item>
 			</MovementModes>
+			<LastBattleEventHighEnergyStartTime value="0.00000000"/>
+			<LastBattleEventHighEnergyEndTime value="5.00000000"/>
 		</Item>
 		<Item>
 			<Name>MP_FEMALE_ACTION</Name>
@@ -162,18 +164,18 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_ACTION@MP_FEMALE@UNARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId />
-								<WeaponClipFilterId />
-								<UpperBodyShadowExpressionEnabled value="false" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="true" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<WeaponClipSetId/>
+								<WeaponClipFilterId/>
+								<UpperBodyShadowExpressionEnabled value="false"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="true"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
 									<Item>MOVE_ACTION@MP_FEMALE@UNARMED@TRANS@</Item>
 								</IdleTransitions>
@@ -186,28 +188,30 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
-								<UpperBodyShadowExpressionEnabled value="true" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="false" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<UpperBodyShadowExpressionEnabled value="true"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="false"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
 									<Item>MOVE_STEALTH@MP_FEMALE@UNARMED@TRANS</Item>
 								</IdleTransitions>
-								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
 								<UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
 				</Item>
 			</MovementModes>
+			<LastBattleEventHighEnergyStartTime value="0.00000000"/>
+			<LastBattleEventHighEnergyEndTime value="5.00000000"/>
 		</Item>
 		<Item>
 			<Name>MICHAEL_ACTION</Name>
@@ -215,18 +219,18 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_action@p_m_zero@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId />
-								<WeaponClipFilterId />
-								<UpperBodyShadowExpressionEnabled value="false" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="true" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<MovementClipSetId>MOVE_ACTION@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId/>
+								<WeaponClipFilterId/>
+								<UpperBodyShadowExpressionEnabled value="false"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="true"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
 									<Item>MOVE_ACTION@P_M_ZERO@UNARMED@TRANS@A</Item>
 								</IdleTransitions>
@@ -239,28 +243,30 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_stealth@p_m_zero@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId>weapons@melee_stealth_1h</WeaponClipSetId>
+								<MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
-								<UpperBodyShadowExpressionEnabled value="true" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="false" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<UpperBodyShadowExpressionEnabled value="true"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="false"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
-									<Item>move_stealth@p_m_zero@unarmed@trans@a</Item>
+									<Item>MOVE_STEALTH@P_M_ZERO@UNARMED@TRANS@A</Item>
 								</IdleTransitions>
-								<UnholsterClipSetId>move_stealth@p_m_zero@holster</UnholsterClipSetId>
+								<UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
 								<UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
 				</Item>
 			</MovementModes>
+			<LastBattleEventHighEnergyStartTime value="0.00000000"/>
+			<LastBattleEventHighEnergyEndTime value="5.00000000"/>
 		</Item>
 		<Item>
 			<Name>FRANKLIN_ACTION</Name>
@@ -268,18 +274,18 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId />
-								<WeaponClipFilterId />
-								<UpperBodyShadowExpressionEnabled value="false" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="true" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<MovementClipSetId>MOVE_ACTION@P_M_ONE@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId/>
+								<WeaponClipFilterId/>
+								<UpperBodyShadowExpressionEnabled value="false"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="true"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
 									<Item>MOVE_ACTION@P_M_ONE@UNARMED@TRANS@A</Item>
 								</IdleTransitions>
@@ -292,20 +298,20 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_one</WeaponClipSetId>
+								<MovementClipSetId>MOVE_STEALTH@P_M_ONE@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H@P_M_ONE</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
-								<UpperBodyShadowExpressionEnabled value="true" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="false" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<UpperBodyShadowExpressionEnabled value="true"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="false"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
-									<Item>move_stealth@p_m_one@unarmed@trans@a</Item>
+									<Item>MOVE_STEALTH@P_M_ONE@UNARMED@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
 								<UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
@@ -314,6 +320,8 @@
 					</Item>
 				</Item>
 			</MovementModes>
+			<LastBattleEventHighEnergyStartTime value="0.00000000"/>
+			<LastBattleEventHighEnergyEndTime value="5.00000000"/>
 		</Item>
 		<Item>
 			<Name>TREVOR_ACTION</Name>
@@ -321,18 +329,18 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId />
-								<WeaponClipFilterId />
-								<UpperBodyShadowExpressionEnabled value="false" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="true" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<MovementClipSetId>MOVE_ACTION@P_M_TWO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId/>
+								<WeaponClipFilterId/>
+								<UpperBodyShadowExpressionEnabled value="false"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="true"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
 									<Item>MOVE_ACTION@P_M_TWO@UNARMED@TRANS@A</Item>
 								</IdleTransitions>
@@ -345,20 +353,20 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>weapon_saber</Item>
+							<Item>WEAPON_SABER</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
-								<MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
-								<WeaponClipSetId>weapons@melee_stealth_1h@p_m_two</WeaponClipSetId>
+								<MovementClipSetId>MOVE_STEALTH@P_M_TWO@UNARMED@CORE</MovementClipSetId>
+								<WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H@P_M_TWO</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
-								<UpperBodyShadowExpressionEnabled value="true" />
-								<UpperBodyFeatheredLeanEnabled value="false" />
-								<UseWeaponAnimsForGrip value="false" />
-								<UseLeftHandIk value="false" />
-								<IdleTransitionBlendOutTime value="0.500000" />
+								<UpperBodyShadowExpressionEnabled value="true"/>
+								<UpperBodyFeatheredLeanEnabled value="false"/>
+								<UseWeaponAnimsForGrip value="false"/>
+								<UseLeftHandIk value="false"/>
+								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
-									<Item>move_stealth@p_m_two@unarmed@trans@a</Item>
+									<Item>MOVE_STEALTH@P_M_TWO@UNARMED@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
 								<UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
@@ -367,6 +375,8 @@
 					</Item>
 				</Item>
 			</MovementModes>
+			<LastBattleEventHighEnergyStartTime value="0.00000000"/>
+			<LastBattleEventHighEnergyEndTime value="5.00000000"/>
 		</Item>
 	</MovementModes>
 </CPedModelInfo__PersonalityDataList>
