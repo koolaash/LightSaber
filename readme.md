@@ -29,6 +29,10 @@ A custom light saber weapon for fivem!
 ```lua
     ['weapon_saber'] 	             = 0.15,
 ```
+- Add the weapon name in `qb-smallresources/client/weapdraw.lua`
+```lua
+    `weapon_saber`
+```
 # Add the next code to your `BackItems.lua` [devyn-backitems](https://github.com/devin-monro/devyn-backitems) script (OPTIONAL)
 ```lua
     ["weapon_saber"] = {
